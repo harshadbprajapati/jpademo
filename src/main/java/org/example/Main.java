@@ -15,12 +15,12 @@ public class Main {
         try {
             session.beginTransaction();
 
-            Student student1 = session.get(Student.class, 1);
-//            Student student1 = session.get(Student.class, 2);
-//            Student student1 = session.find(Student.class, 1);
-
+            Student student1 = session.find(Student.class, 1);
+            System.out.println("Retrieving student " + student1);
+            student1.setStudentName("Tom Cruise");
             System.out.println("Retrieving student " + student1);
             session.getTransaction().commit();
+            student1.setStudentName("Tomkumar Cruise");
         } finally{
             session.close();
             sessionFactory.close();
