@@ -66,4 +66,7 @@
 >state-transition-get-then-update
 > - It demonstrates state transition for an entity instance that is updated after retrieved
 
+>state-transition-delete-instance
+> - It demonstrates state transition for an entity instance that is deleted after retrieved
+
 
