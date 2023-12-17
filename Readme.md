@@ -14,3 +14,17 @@
 
 >hibernate-second-properties
 > - It deomonstrates use of hibernate.properties
+
+>hibernate-hbm2ddl-auto-create
+> - It deomonstrates use of hbm2ddl.auto=create
+
+>hibernate-hbm2ddl-auto-create-drop
+> - It deomonstrates use of hbm2ddl.auto=create-drop
+
+>hibernate-hbm2ddl-auto-update
+> - It deomonstrates use of hbm2ddl.auto=update
+
+>hibernate-hbm2ddl-auto-validate
+> - It deomonstrates use of hbm2ddl.auto=validate
+
+
