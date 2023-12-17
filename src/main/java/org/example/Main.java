@@ -15,13 +15,11 @@ public class Main {
         try {
             session.beginTransaction();
 
-            Student student1 = new Student();
-            student1.setStudentName("Tom Cruise");
+            Student student1 = session.get(Student.class, 1);
+//            Student student1 = session.get(Student.class, 2);
+//            Student student1 = session.find(Student.class, 1);
 
-            session.persist(student1);
-
-            student1.setStudentName("Tomkumar Cruise");
-
+            System.out.println("Retrieving student " + student1);
             session.getTransaction().commit();
         } finally{
             session.close();
