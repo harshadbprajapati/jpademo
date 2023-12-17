@@ -16,10 +16,12 @@ public class Main {
             session.beginTransaction();
 
             Student student1 = new Student();
-            student1.setStudentName("Arnold Schwarzenegger");
+            student1.setStudentName("Keanu Reeves");
+//            student1.setStudentName("Tom Cruise");
 
             Student student2 = new Student();
-            student2.setStudentName("Sylvester Stallone");
+            student2.setStudentName("Dwayne Johnson");
+//            student2.setStudentName("Will Smith");
 
             session.persist(student1);
             session.persist(student2);

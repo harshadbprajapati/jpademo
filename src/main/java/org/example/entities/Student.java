@@ -3,6 +3,10 @@ import jakarta.persistence.*;
 
 @Entity
 public class Student {
+//    @TableGenerator(name="studentIdGenerator", table="student_id_generator",
+//        pkColumnName="student_id", pkColumnValue="student_id_value",
+//        allocationSize = 1)
+//    @Id @GeneratedValue(strategy = GenerationType.TABLE, generator="studentIdGenerator")
     @Id @GeneratedValue(strategy = GenerationType.TABLE)
     private long id;
 
