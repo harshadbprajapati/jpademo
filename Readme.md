@@ -33,3 +33,10 @@
 >hibernate-schema-gen-transient
 > - It demonstrates the use of @Transient annotation in schema generation
 
+
+>hibernate-schema-gen-temporal
+> - It demonstrates the use of @Temporal annotation in schema generation
+
+
+
+
