@@ -75,3 +75,6 @@
 >state-transition-detach-to-persistent-2
 > - It demonstrates state transition for an entity instance that is persisted after detach.
 
+>crud-with-dao
+> - It demonstrates performing CRUD operations using DAO.
+
