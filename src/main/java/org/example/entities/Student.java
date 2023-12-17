@@ -9,7 +9,7 @@ public class Student {
     @Column(name = "student_name")
     private String studentName;
 
-//    private int rollNumber;
+    private int rollNumber;
 
     public long getId() {
         return id;
@@ -26,12 +26,12 @@ public class Student {
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
-//    public int getRollNumber() {
-//        return rollNumber;
-//    }
-//
-//    public void setRollNumber(int rollNumber) {
-//        this.rollNumber = rollNumber;
-//    }
+    public int getRollNumber() {
+        return rollNumber;
+    }
+
+    public void setRollNumber(int rollNumber) {
+        this.rollNumber = rollNumber;
+    }
 
 }
