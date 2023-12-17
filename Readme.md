@@ -63,4 +63,7 @@
 >state-transition-get-instance
 > - It demonstrates state transition for an entity instance that is retrieved using get or find
 
+>state-transition-get-then-update
+> - It demonstrates state transition for an entity instance that is updated after retrieved
+
 
