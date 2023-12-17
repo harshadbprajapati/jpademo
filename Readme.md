@@ -54,4 +54,7 @@
 >hibernate-pk-gen-table-customize
 > - It demonstrates the use of customizing table strategy in schema generation
 
+>state-transition-new-instance
+> - It demonstrates state transition for new entity instance
+
 
