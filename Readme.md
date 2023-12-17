@@ -57,4 +57,8 @@
 >state-transition-new-instance
 > - It demonstrates state transition for new entity instance
 
+>state-transition-update
+> - It demonstrates state transition for an entity that gets updated
+
+
 
