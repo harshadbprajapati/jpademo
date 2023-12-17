@@ -36,14 +36,17 @@
 >hibernate-schema-gen-temporal
 > - It demonstrates the use of @Temporal annotation in schema generation
 
->hibernate-pk-gen-auto
-> - It demonstrates the use of @GeneratedValue annotation with auto in schema generation
+>hibernate-pk-gen
+> - It demonstrates the use of @GeneratedValue annotation in schema generation
 
 >hibernate-pk-gen-sequence
 > - It demonstrates the use of @GeneratedValue annotation with strategy=sequence in schema generation
 
 >hibernate-pk-gen-identity
 > - It demonstrates the use of @GeneratedValue annotation with strategy=identity in schema generation
+
+>hibernate-pk-gen-auto
+> - It demonstrates the use of @GeneratedValue annotation with strategy=auto in schema generation
 
 >hibernate-pk-gen-table
 > - It demonstrates the use of @GeneratedValue annotation with strategy=table in schema generation
