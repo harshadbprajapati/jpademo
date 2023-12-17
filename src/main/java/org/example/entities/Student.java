@@ -3,7 +3,7 @@ import jakarta.persistence.*;
 
 @Entity
 public class Student {
-    @Id @GeneratedValue
+    @Id
     private long id;
 
     @Column(name = "student_name")
@@ -23,14 +23,6 @@ public class Student {
 
     public void setStudentName(String studentName) {
         this.studentName = studentName;
-    }
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", studentName='" + studentName + '\'' +
-                '}';
     }
 }
 
