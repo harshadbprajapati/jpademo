@@ -12,4 +12,4 @@ public class Main {
         SessionFactory sessionFactory = config.buildSessionFactory();
 //        sessionFactory.close();
     }
-}
+}~

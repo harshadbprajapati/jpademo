@@ -9,8 +9,8 @@ public class Student {
     @Column(name = "student_name")
     private String studentName;
 
-//    @Column(name = "roll_number")
-//    @Column(name = "roll_number", nullable = false)
+    @Transient
+    @Column(name = "roll_number", nullable = false)
     private int rollNumber;
 
     public long getId() {
