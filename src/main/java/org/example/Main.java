@@ -8,5 +8,6 @@ public class Main {
         Configuration config = new Configuration();
         config.addAnnotatedClass(org.example.entities.Student.class);
         SessionFactory sessionFactory = config.buildSessionFactory();
+//        sessionFactory.close();
     }
 }
