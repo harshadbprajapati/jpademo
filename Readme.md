@@ -60,5 +60,7 @@
 >state-transition-update
 > - It demonstrates state transition for an entity that gets updated
 
+>state-transition-get-instance
+> - It demonstrates state transition for an entity instance that is retrieved using get or find
 
 
