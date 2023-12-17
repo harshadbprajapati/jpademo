@@ -27,4 +27,9 @@
 >hibernate-hbm2ddl-auto-validate
 > - It deomonstrates use of hbm2ddl.auto=validate
 
+>hibernate-schema-gen-column
+> - It demonstrates the use of @Column annotation in schema generation
+
+>hibernate-schema-gen-transient
+> - It demonstrates the use of @Transient annotation in schema generation
 
