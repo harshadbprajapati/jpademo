@@ -15,11 +15,9 @@ public class Main {
 
         try {
             session.beginTransaction();
-
-            student1 = session.find(Student.class, 1);
-            System.out.println("Retrieving student " + student1);
-            session.remove(student1);
-
+            student1 = new Student();
+            student1.setStudentName("Tom Cruise");
+            session.persist(student1);
             session.getTransaction().commit();
         } finally{
             System.out.println("Retrieving student " + student1);
