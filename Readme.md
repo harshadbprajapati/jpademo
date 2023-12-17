@@ -51,4 +51,7 @@
 >hibernate-pk-gen-table
 > - It demonstrates the use of @GeneratedValue annotation with strategy=table in schema generation
 
+>hibernate-pk-gen-table-customize
+> - It demonstrates the use of customizing table strategy in schema generation
+
 
