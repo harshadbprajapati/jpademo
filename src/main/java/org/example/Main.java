@@ -11,17 +11,18 @@ public class Main {
         config.addAnnotatedClass(org.example.entities.Student.class);
         SessionFactory sessionFactory = config.buildSessionFactory();
         Session session = sessionFactory.openSession();
+        Student student1=null;
 
         try {
             session.beginTransaction();
 
-            Student student1 = session.find(Student.class, 1);
+            student1 = session.find(Student.class, 1);
             System.out.println("Retrieving student " + student1);
-            student1.setStudentName("Tom Cruise");
-            System.out.println("Retrieving student " + student1);
+            session.remove(student1);
+
             session.getTransaction().commit();
-            student1.setStudentName("Tomkumar Cruise");
         } finally{
+            System.out.println("Retrieving student " + student1);
             session.close();
             sessionFactory.close();
         }
