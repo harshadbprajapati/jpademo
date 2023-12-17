@@ -19,7 +19,8 @@ public class Main {
             student1.setStudentName("Tom Cruise");
 
             session.persist(student1);
-            session.persist(student1);
+
+            student1.setStudentName("Tomkumar Cruise");
 
             session.getTransaction().commit();
         } finally{
