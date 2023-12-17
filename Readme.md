@@ -33,10 +33,11 @@
 >hibernate-schema-gen-transient
 > - It demonstrates the use of @Transient annotation in schema generation
 
-
 >hibernate-schema-gen-temporal
 > - It demonstrates the use of @Temporal annotation in schema generation
 
+>hibernate-pk-gen-auto
+> - It demonstrates the use of @GeneratedValue annotation with auto in schema generation
 
 
 
